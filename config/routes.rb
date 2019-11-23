@@ -6,4 +6,6 @@ Rails.application.routes.draw do
       get 'photo'
     end
   end
+
+  resources :blogs, only:[:index]
 end
