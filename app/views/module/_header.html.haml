@@ -1,4 +1,4 @@
-%nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+%nav.navbar.navbar-expand-lg.navbar-light.fixed-top{:style => "background-color: #e3f2fd;"}
   %button.navbar-toggler.navbar-toggler-right{"aria-controls" => "navbarTogglerDemo02", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarTogglerDemo02", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
   %a.navbar-brand{:href => "#!"}
@@ -17,9 +17,13 @@
       %li.nav-item
         %a.nav-link{:href => "#!"}
           = fa_icon("book") 
-          blog　　
-      %li.nav-item
+          blog　
+      %li.nav-item__port
         %a.nav-link{:href => "#!"} 
           = fa_icon("link")
           portfolio
+      %form.form-inline
+        %input.form-control.mr-sm-2{:placeholder => "Search", :type => "text"}/
+        %button.btn.btn-outline-success.my-2.my-sm-0{:type => "submit"} Search
+
 
