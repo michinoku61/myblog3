@@ -36,12 +36,13 @@ a:hover {
 
 /*トップページ（※index.html）の設定
 ---------------------------------------------------------------------------*/
-body.home {
+
+.home {
 	background: url(../images/mainimg.jpg) no-repeat left center;	/*背景画像の設定（古いブラウザ用）*/
 	background: url(../images/mainimg.jpg) no-repeat left center / cover;	/*背景画像の設定*/
 }
 /*ロゴ*/
-body.home .logo {
+.home .logo {
 	background: #000;	/*背景色*/
 	text-align: center;	/*ロゴ画像の配置を左右の中央に*/
 	padding: 10px;		/*ブロック内の余白*/
@@ -52,7 +53,7 @@ body.home .logo {
 	animation-fill-mode: both;
 	animation-delay: 1s;	/*１秒遅れてアニメーションをスタートさせる*/
 }
-body.home .logo img {
+.home .logo img {
 	width: 400px;	/*ロゴ画像の幅*/
 }
 /*ロゴのアニメーション*/
@@ -125,7 +126,7 @@ body.home .logo img {
 	float: left;	/*左に回り込み*/
 	width: 30%;		/*幅*/
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);	/*ボックスの影。右へ、下へ、広げる幅。0,0,0は黒の事で0.1は10%色がついた状態の事。*/
-	line-height: 1.4;	/*行間を少し狭く。デフォルトの値は冒頭の「body」にあります。*/
+	line-height: 1.4;	/*行間を少し狭く。デフォルトの値は冒頭の「」にあります。*/
 	margin-left: 2.5%;	/*左に空けるボックスの外側へのスペース。左右間の余白になります。*/
 	margin-bottom: 20px;	/*下に空けるボックスの外側へのスペース。上下間の余白になります。*/
 	background: #fff;	/*背景色*/

@@ -64,4 +64,7 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails'
 gem 'haml-rails'
 gem 'erb2haml'
-
+gem 'pry-rails'
+gem 'kaminari'
+gem 'devise'
+gem 'font-awesome-rails'

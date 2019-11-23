@@ -2,14 +2,24 @@
   %button.navbar-toggler.navbar-toggler-right{"aria-controls" => "navbarTogglerDemo02", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarTogglerDemo02", "data-toggle" => "collapse", :type => "button"}
     %span.navbar-toggler-icon
   %a.navbar-brand{:href => "#!"}
-    %h2 MyBlog
-
+    %h2 Welcome to my page
   #navbarTogglerDemo02.collapse.navbar-collapse
     %ul.navbar-nav.mr-auto.mt-2.mt-md-0
       %li.nav-item.active
         %a.nav-link{:href => "#!"}
-          Home
+          = fa_icon("home")
+          Home　　
           %span.sr-only (current)
       %li.nav-item
-        %a.nav-link{:href => "#!"} Link
+        %a.nav-link{:href => "#!"} 
+          = fa_icon("user")
+          profile　　
+      %li.nav-item
+        %a.nav-link{:href => "#!"}
+          = fa_icon("book") 
+          blog　　
+      %li.nav-item
+        %a.nav-link{:href => "#!"} 
+          = fa_icon("link")
+          portfolio
 
